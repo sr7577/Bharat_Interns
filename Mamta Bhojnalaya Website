@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mamta Bhojnalaya Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8dc;
+      color: #333;
+    }
+    header {
+      background-color: #ffc107;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .menu-section {
+      background-color: #fff;
+      border: 2px solid #ffd54f;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 15px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .menu-section h2 {
+      border-bottom: 2px solid #ffc107;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      color: #d17e00;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 8px 5px;
+    }
+    .footer {
+      text-align: center;
+      background-color: #333;
+      color: #fff;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+
+    /* Responsive Design Enhancements */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .menu-section {
+        width: 90%;
+        padding: 10px;
+      }
+
+      .menu-section h2 {
+        font-size: 1.3rem;
+      }
+
+      table {
+        font-size: 0.95rem;
+      }
+
+      td {
+        padding: 6px 4px;
+      }
+
+      .footer {
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      .menu-section {
+        width: 100%;
+        margin: 10px 0;
+      }
+
+      .menu-section h2 {
+        font-size: 1.1rem;
+      }
+
+      table {
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mamta Bhojnalaya</h1>
+    <p>Delicious Homestyle Meals</p>
+  </header>
+
+  <div class="container">
+    <div class="menu-section">
+      <h2>Paneer</h2>
+      <table>
+        <tr><td>Matar Paneer</td><td>80 / 120</td></tr>
+        <tr><td>Kaju Paneer</td><td>120 / 170</td></tr>
+        <tr><td>Sahi Paneer</td><td>100 / 150</td></tr>
+        <tr><td>Chola Paneer</td><td>80 / 120</td></tr>
+        <tr><td>Kaju Kari</td><td>100 / 150</td></tr>
+      </table>
+    </div>
+
+    <div class="menu-section">
+      <h2>Dal</h2>
+      <table>
+        <tr><td>Dal Fry</td><td>60 / 90</td></tr>
+        <tr><td>Dak Tadka</td><td>70 / 100</td></tr>
+        <tr><td>Dal Paneer</td><td>70 / 100</td></tr>
+      </table>
+    </div>
+
+    <div class="menu-section">
+      <h2>Sabji</h2>
+      <table>
+        <tr><td>Sev Masala</td><td>60 / 90</td></tr>
+        <tr><td>Sev Bhaji</td><td>70 / 100</td></tr>
+        <tr><td>Sev Tamatar</td><td>60 / 90</td></tr>
+        <tr><td>Tamatar Masala</td><td>60 / 90</td></tr>
+        <tr><td>Tamatar Chatni</td><td>60 / 90</td></tr>
+        <tr><td>Khadi Pakoda</td><td>60 / 90</td></tr>
+        <tr><td>Khadi Tadka</td><td>70 / 100</td></tr>
+      </table>
+    </div>
+
+    <div class="menu-section">
+      <h2>Rice</h2>
+      <table>
+        <tr><td>Plain Rice</td><td>30 / 50</td></tr>
+        <tr><td>Jeera Rice</td><td>40 / 60</td></tr>
+        <tr><td>Masala Rice</td><td>50 / 70</td></tr>
+        <tr><td>Lapeta</td><td>-- / 90</td></tr>
+      </table>
+    </div>
+
+    <div class="menu-section">
+      <h2>Roti</h2>
+      <table>
+        <tr><td>Tawa Roti</td><td>6</td></tr>
+        <tr><td>Tawa Butter Roti</td><td>8</td></tr>
+        <tr><td>Tandoori Roti</td><td>8</td></tr>
+        <tr><td>Tandoori Butter Roti</td><td>8</td></tr>
+        <tr><td>Lachha Paratha</td><td>25</td></tr>
+      </table>
+    </div>
+
+    <div class="menu-section">
+      <h2>Other</h2>
+      <table>
+        <tr><td>Papad Dry</td><td>20</td></tr>
+        <tr><td>Papad Masala</td><td>30</td></tr>
+        <tr><td>Bati</td><td>10</td></tr>
+        <tr><td>Dahi</td><td>30 / 50</td></tr>
+        <tr><td>Water Bottle</td><td>10 / 20</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>You're the best! Thanks for visiting.</p>
+  </div>
+</body>
+</html>
